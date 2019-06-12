@@ -5,8 +5,6 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
-import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.EnvironmentAware;
@@ -17,7 +15,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 import org.springframework.util.StringUtils;
 
 import java.lang.reflect.Field;
-import java.util.Map;
+import java.lang.reflect.Modifier;
 
 /**
  * @author jiang
@@ -40,13 +38,15 @@ public class ConfigurationPropertyProcessor  implements ApplicationContextAware,
             Field[] fields = beanClass.getDeclaredFields();
             for (Field field : fields) {
                 Object property = environment.getProperty(key(prefix, field.getName()), field.getType());
-                field.setAccessible(true);
-                try {
-                    field.set(bean,property);
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                }finally {
-                    field.setAccessible(false);
+                if(property != null){
+                    if (!Modifier.isPublic(field.getModifiers())){
+                        field.setAccessible(true);
+                    }
+                    try {
+                        field.set(bean,property);
+                    } catch (IllegalAccessException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         }
