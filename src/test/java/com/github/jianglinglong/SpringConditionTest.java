@@ -1,7 +1,7 @@
-package com.jiang.condition;
+package com.github.jianglinglong;
 
-import com.jiang.beans.Cat;
-import com.jiang.property.DefaultProperties;
+import com.github.jianglinglong.beans.Cat;
+import com.github.jianglinglong.property.DefaultProperties;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

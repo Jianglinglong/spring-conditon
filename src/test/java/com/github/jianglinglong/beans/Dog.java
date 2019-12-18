@@ -1,14 +1,14 @@
-package com.jiang.beans;
+package com.github.jianglinglong.beans;
 
 import lombok.Data;
 
 /**
  * @author jiang
  * @date 2019/5/30
- * @time 11:10
+ * @time 12:14
  */
 @Data
-public class Cat {
+public class Dog {
     private Person person;
     private String name;
 }

@@ -1,4 +1,4 @@
-package com.jiang.beans;
+package com.github.jianglinglong.beans;
 
 import lombok.Data;
 

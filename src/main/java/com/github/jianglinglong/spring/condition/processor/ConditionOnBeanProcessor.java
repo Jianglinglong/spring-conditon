@@ -1,7 +1,7 @@
-package com.jiang.spring.condition.processor;
+package com.github.jianglinglong.spring.condition.processor;
 
-import com.jiang.spring.condition.annotation.ConditionOnBean;
-import com.jiang.spring.exception.ConditionOnBeanException;
+import com.github.jianglinglong.spring.condition.annotation.ConditionOnBean;
+import com.github.jianglinglong.spring.exception.ConditionOnBeanException;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Condition;

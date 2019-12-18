@@ -1,6 +1,6 @@
-package com.jiang.spring.condition.annotation;
+package com.github.jianglinglong.spring.condition.annotation;
 
-import com.jiang.spring.condition.processor.ConditionOnBeanProcessor;
+import com.github.jianglinglong.spring.condition.processor.ConditionOnBeanMissProcessor;
 import org.springframework.context.annotation.Conditional;
 
 import java.lang.annotation.Documented;
@@ -18,7 +18,7 @@ import java.lang.annotation.Target;
 @Target({ ElementType.TYPE, ElementType.METHOD })
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@Conditional(ConditionOnBeanProcessor.class)
-public @interface ConditionOnBean {
-    Class<?>[] value();
+@Conditional(ConditionOnBeanMissProcessor.class)
+public @interface ConditionOnBeanMiss{
+
 }

@@ -1,10 +1,10 @@
-package com.jiang.condition;
+package com.github.jianglinglong.condition;
 
-import com.jiang.beans.Cat;
-import com.jiang.beans.Dog;
-import com.jiang.beans.Person;
-import com.jiang.spring.condition.annotation.ConditionOnBean;
-import com.jiang.spring.condition.annotation.ConditionOnBeanMiss;
+import com.github.jianglinglong.beans.Cat;
+import com.github.jianglinglong.beans.Dog;
+import com.github.jianglinglong.beans.Person;
+import com.github.jianglinglong.spring.condition.annotation.ConditionOnBean;
+import com.github.jianglinglong.spring.condition.annotation.ConditionOnBeanMiss;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
@@ -15,6 +15,7 @@ import org.springframework.context.annotation.DependsOn;
  * @time 10:07
  */
 @Configuration
+@ConditionOnBeanMiss
 public class Config {
 
     @Bean
