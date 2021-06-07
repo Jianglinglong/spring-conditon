@@ -1,6 +1,6 @@
-package com.github.jianglinglong.spring.condition.annotation;
+package com.github.amrjlg.spring.condition.annotation;
 
-import com.github.jianglinglong.spring.condition.processor.ConfigurationPropertyProcessor;
+import com.github.amrjlg.spring.condition.processor.ConfigurationPropertyProcessor;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;

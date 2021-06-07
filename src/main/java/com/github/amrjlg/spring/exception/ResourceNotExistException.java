@@ -1,4 +1,4 @@
-package com.github.jianglinglong.spring.exception;
+package com.github.amrjlg.spring.exception;
 
 /**
  * @author jiang

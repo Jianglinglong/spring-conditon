@@ -1,4 +1,4 @@
-package com.github.jianglinglong.spring.condition.processor;
+package com.github.amrjlg.spring.condition.processor;
 
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.annotation.Condition;

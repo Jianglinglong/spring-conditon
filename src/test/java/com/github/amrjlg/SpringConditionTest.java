@@ -15,7 +15,7 @@ public class SpringConditionTest {
 
     @Test
     public void test() {
-        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.jiang");
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.github.jianglinglong");
 
         String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
         System.out.println("-----------------");

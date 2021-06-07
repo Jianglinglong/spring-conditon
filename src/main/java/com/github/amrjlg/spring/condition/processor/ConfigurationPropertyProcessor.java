@@ -1,6 +1,6 @@
-package com.github.jianglinglong.spring.condition.processor;
+package com.github.amrjlg.spring.condition.processor;
 
-import com.github.jianglinglong.spring.exception.ResourceNotExistException;
+import com.github.amrjlg.spring.exception.ResourceNotExistException;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
