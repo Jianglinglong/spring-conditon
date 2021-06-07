@@ -1,8 +1,8 @@
-package com.github.jianglinglong.condition;
+package com.github.amrjlg.condition;
 
-import com.github.jianglinglong.beans.Cat;
-import com.github.jianglinglong.beans.Dog;
-import com.github.jianglinglong.beans.Person;
+import com.github.amrjlg.beans.Cat;
+import com.github.amrjlg.beans.Dog;
+import com.github.amrjlg.beans.Person;
 import com.github.amrjlg.spring.condition.annotation.ConditionOnBean;
 import com.github.amrjlg.spring.condition.annotation.ConditionOnBeanMiss;
 import org.springframework.context.annotation.Bean;

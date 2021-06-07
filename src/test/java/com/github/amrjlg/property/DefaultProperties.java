@@ -1,4 +1,4 @@
-package com.github.jianglinglong.property;
+package com.github.amrjlg.property;
 
 import com.github.amrjlg.spring.condition.annotation.ConfigurationProperty;
 import lombok.Data;

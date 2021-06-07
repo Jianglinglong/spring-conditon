@@ -38,7 +38,7 @@ public class ConfigurationPropertyProcessor implements Condition {
 
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
-        Map<String, Object> configurationProperty = metadata.getAnnotationAttributes("com.github.jianglinglong.spring.condition.annotation.ConfigurationProperty");
+        Map<String, Object> configurationProperty = metadata.getAnnotationAttributes("com.github.amrjlg.spring.condition.annotation.ConfigurationProperty");
         if (configurationProperty == null) {
             return false;
         }
