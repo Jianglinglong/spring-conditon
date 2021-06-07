@@ -1,4 +1,4 @@
-package com.github.amrjlg.spring.exception;
+package io.github.amrjlg.spring.exception;
 
 /**
  * @author amrjlg

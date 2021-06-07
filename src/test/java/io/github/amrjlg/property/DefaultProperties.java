@@ -1,6 +1,6 @@
-package com.github.amrjlg.property;
+package io.github.amrjlg.property;
 
-import com.github.amrjlg.spring.condition.annotation.ConfigurationProperty;
+import io.github.amrjlg.spring.condition.annotation.ConfigurationProperty;
 import lombok.Data;
 
 /**

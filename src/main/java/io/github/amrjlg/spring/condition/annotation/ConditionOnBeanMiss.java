@@ -1,6 +1,6 @@
-package com.github.amrjlg.spring.condition.annotation;
+package io.github.amrjlg.spring.condition.annotation;
 
-import com.github.amrjlg.spring.condition.processor.ConditionOnBeanMissProcessor;
+import io.github.amrjlg.spring.condition.processor.ConditionOnBeanMissProcessor;
 import org.springframework.context.annotation.Conditional;
 
 import java.lang.annotation.Documented;

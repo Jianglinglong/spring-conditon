@@ -1,4 +1,4 @@
-package com.github.amrjlg.beans;
+package io.github.amrjlg.beans;
 
 import lombok.Data;
 

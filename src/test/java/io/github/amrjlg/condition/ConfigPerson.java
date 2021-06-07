@@ -1,4 +1,4 @@
-package com.github.amrjlg.condition;
+package io.github.amrjlg.condition;
 
 import org.springframework.context.annotation.Configuration;
 

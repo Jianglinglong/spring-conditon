@@ -1,6 +1,7 @@
-package com.github.amrjlg.spring.condition.processor;
+package io.github.amrjlg.spring.condition.processor;
 
-import com.github.amrjlg.spring.exception.ResourceNotExistException;
+import io.github.amrjlg.spring.condition.annotation.ConfigurationProperty;
+import io.github.amrjlg.spring.exception.ResourceNotExistException;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
@@ -28,6 +29,8 @@ import java.util.Properties;
  * 13:43
  */
 public class ConfigurationPropertyProcessor implements Condition {
+    private final String ANNOTATION_NAME = ConfigurationProperty.class.getName();
+
     private String key(String prefix, String name) {
         if (StringUtils.hasText(prefix)) {
             return prefix + "." + name;
@@ -38,7 +41,7 @@ public class ConfigurationPropertyProcessor implements Condition {
 
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
-        Map<String, Object> configurationProperty = metadata.getAnnotationAttributes("com.github.amrjlg.spring.condition.annotation.ConfigurationProperty");
+        Map<String, Object> configurationProperty = metadata.getAnnotationAttributes(ANNOTATION_NAME);
         if (configurationProperty == null) {
             return false;
         }

@@ -1,7 +1,7 @@
-package com.github.amrjlg;
+package io.github.amrjlg;
 
-import com.github.amrjlg.beans.Cat;
-import com.github.amrjlg.property.DefaultProperties;
+import io.github.amrjlg.beans.Cat;
+import io.github.amrjlg.property.DefaultProperties;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -15,7 +15,7 @@ public class SpringConditionTest {
 
     @Test
     public void test() {
-        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.github.amrjlg");
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext("io.github.amrjlg");
 
         String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
         System.out.println("-----------------");
