@@ -8,9 +8,9 @@ import org.springframework.core.type.ClassMetadata;
 import org.springframework.core.type.MethodMetadata;
 
 /**
- * @author jiang
- * @date 2019/5/30
- * @time 10:16
+ * @author amrjlg
+ * 2019/5/30
+ * 10:16
  */
 public class ConditionOnBeanMissProcessor implements Condition {
 

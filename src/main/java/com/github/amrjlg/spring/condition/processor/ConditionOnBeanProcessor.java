@@ -12,9 +12,9 @@ import java.beans.Introspector;
 import java.util.Map;
 
 /**
- * @author jiang
- * @date 2019/5/30
- * @time 10:16
+ * @author amrjlg
+ * 2019/5/30
+ * 10:16
  */
 public class ConditionOnBeanProcessor implements Condition {
     private final String annotationName = ConditionOnBean.class.getName();

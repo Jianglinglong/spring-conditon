@@ -23,9 +23,9 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * @author jiang
- * @date 2019/5/30
- * @time 13:43
+ * @author amrjlg
+ * 2019/5/30
+ * 13:43
  */
 public class ConfigurationPropertyProcessor implements Condition {
     private String key(String prefix, String name) {

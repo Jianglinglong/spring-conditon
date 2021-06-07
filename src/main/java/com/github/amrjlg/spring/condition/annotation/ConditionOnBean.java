@@ -10,12 +10,11 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author jiang
- * @date 2019/5/30
- * @time 10:06
+ * @author amrjlg
+ * 2019/5/30 10:06
  */
 
-@Target({ ElementType.TYPE, ElementType.METHOD })
+@Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Conditional(ConditionOnBeanProcessor.class)

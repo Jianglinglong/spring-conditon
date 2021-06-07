@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
 
 /**
- * @author jiang
- * @date 2019/5/30
- * @time 10:07
+ * @author amrjlg
+ * 2019/5/30
+ * 10:07
  */
 @Configuration
 @ConditionOnBeanMiss

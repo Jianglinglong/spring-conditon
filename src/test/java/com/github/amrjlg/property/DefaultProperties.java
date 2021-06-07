@@ -4,9 +4,9 @@ import com.github.amrjlg.spring.condition.annotation.ConfigurationProperty;
 import lombok.Data;
 
 /**
- * @author jiang
- * @date 2019/5/30
- * @time 13:38
+ * @author amrjlg
+ * 2019/5/30
+ * 13:38
  */
 @Data
 @ConfigurationProperty(prefix = "properties")

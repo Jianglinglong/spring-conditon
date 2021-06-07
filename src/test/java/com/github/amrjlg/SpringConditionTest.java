@@ -6,9 +6,9 @@ import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * @author jiang
- * @date 2019/5/30
- * @time 10:05
+ * @author amrjlg
+ * 2019/5/30
+ * 10:05
  */
 
 public class SpringConditionTest {

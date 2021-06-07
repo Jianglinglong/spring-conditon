@@ -3,9 +3,9 @@ package com.github.amrjlg.beans;
 import lombok.Data;
 
 /**
- * @author jiang
- * @date 2019/5/30
- * @time 10:08
+ * @author amrjlg
+ * 2019/5/30
+ * 10:08
  */
 @Data
 public class Person {

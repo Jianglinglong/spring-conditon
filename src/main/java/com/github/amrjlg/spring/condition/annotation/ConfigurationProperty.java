@@ -17,9 +17,9 @@ import java.lang.annotation.Target;
  * <p>
  * matching mode like : prefix.fieldName or fieldName
  *
- * @author jiang
- * @date 2019/5/30
- * @time 13:36
+ * @author amrjlg
+ * 2019/5/30
+ * 13:36
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
