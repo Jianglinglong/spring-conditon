@@ -11,7 +11,7 @@
     <name>spring condition</name>
     <description>
         implements org.springframework.context.annotation.Condition for configuration Bean
-        by annotation conditions and add one default file property locationed classpath:application.properties
+        by annotation conditions and add one default file property location classpath:application.properties
     </description>
     <developers>
         <developer>
@@ -127,7 +127,7 @@
                         <link>https://docs.oracle.com/javase/8/docs/api/</link>
                     </links>
                     <encoding>utf8</encoding>
-                    <charSet>UTF-8</charSet>
+                    <charset>UTF-8</charset>
                     <!-- <additionalparam>-encoding "UTF-8"</additionalparam> -->
                 </configuration>
             </plugin>
